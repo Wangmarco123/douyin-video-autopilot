@@ -1,0 +1,40 @@
+# 工作产物
+build/
+out/
+*.mp4
+*.mov
+*.m4v
+*.mp3
+*.wav
+*.srt
+*.flac
+
+# 素材与截图
+assets/
+frames/
+qc/
+*.png
+*.jpg
+!docs/images/*.png
+!docs/images/*.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 本地配置 / 凭据
+.env
+*.local.json
+cookies/
+*.token
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 时间线里的绝对路径产物
+examples/*.json.out

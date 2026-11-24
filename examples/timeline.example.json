@@ -1,0 +1,51 @@
+{
+  "output": "build/final.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "total": 35.5,
+  "work_dir": "build/_work",
+  "grade": "colorbalance=rs=-0.02:bs=0.04,eq=contrast=1.10:brightness=-0.01:saturation=1.12:gamma=0.99,unsharp=5:5:0.5:5:5:0,vignette=PI/4.8",
+  "subtitles": {
+    "srt": "build/vo.srt",
+    "font": "Microsoft YaHei",
+    "size": 50,
+    "margin_v": 250
+  },
+  "overlays": [
+    { "text": "26.99万起", "size": 116, "y": 1080, "t0": 0.40, "t1": 3.30 },
+    { "text": "腾势N8 正式上市", "size": 54, "y": 1230, "t0": 0.55, "t1": 3.30, "box": false },
+    { "text": "2.98s 零百", "size": 84, "y": 1120, "t0": 24.95, "t1": 27.10 },
+    { "text": "1003km · 5分钟充好", "size": 64, "y": 1120, "t0": 27.25, "t1": 30.60 }
+  ],
+  "shots": [
+    { "src": "assets/interior.mp4", "in": 57.5, "dur": 1.50 },
+    { "src": "assets/hero.mp4", "in": 1.5, "dur": 2.22, "pan": [0.35, 0.65] },
+    { "src": "assets/detail-headlight.mp4", "in": 1.2, "dur": 1.48 },
+    { "src": "assets/detail-taillight.mp4", "in": 0.8, "dur": 1.68 },
+    { "src": "assets/knob.mp4", "in": 5.8, "dur": 2.22 },
+    { "src": "assets/wood.mp4", "in": 9.0, "dur": 1.80 },
+    { "src": "assets/dash.mp4", "in": 13.5, "dur": 1.98 },
+    { "src": "assets/screen.mp4", "in": 58.0, "dur": 2.32 },
+    { "src": "assets/sky-screen.mp4", "in": 21.0, "dur": 1.60 },
+    { "src": "assets/dash-2.mp4", "in": 60.0, "dur": 1.49 },
+    { "src": "assets/rear-seat.mp4", "in": 41.0, "dur": 2.21 },
+    { "src": "assets/front-seat.mp4", "in": 37.0, "dur": 1.90 },
+    { "src": "assets/rear-wide.mp4", "in": 46.0, "dur": 2.52 },
+    { "src": "assets/turntable.mp4", "in": 2.0, "dur": 2.28 },
+    { "src": "assets/light-show.mp4", "in": 1.5, "dur": 1.80 },
+    { "src": "assets/taillight.mp4", "in": 0.8, "dur": 1.68 },
+    { "src": "assets/hero-2.mp4", "in": 100.0, "dur": 2.72 },
+    { "src": "build/cards/endcard.png", "mode": "card", "dur": 2.10 }
+  ],
+  "audio": {
+    "voice": "build/vo.mp3",
+    "voice_gain": 1.9,
+    "bgm": "assets/bgm.mp3",
+    "bgm_gain": 0.12,
+    "sfx": null,
+    "sfx_gain": 0.0,
+    "target_lufs": -14.0,
+    "limit_db": -1.5
+  }
+}
