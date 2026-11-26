@@ -1,5 +1,7 @@
 # douyin-video-autopilot
 
+> ⚠️ **本仓库已并入 [douyin-channels-autopilot](https://github.com/Wangmarco123/douyin-channels-autopilot)** —— 那边是产品化版本（CLI 包 + 分段配音对齐时间轴 + 发布封装 + 发布前音频质检门 `python -m autopilot qc`）。本仓仅保留作历史快照，不再更新，请以 **douyin-channels-autopilot** 为准。
+
 把「一份共创 brief + 一堆官方素材」变成「两条已核验的抖音/视频号链接」的开源流水线。
 
 不是剪辑软件，也不是发布平台的官方 SDK —— 是一套**跑在本机、可审计、带质检门**的脚本 + 方法论，
